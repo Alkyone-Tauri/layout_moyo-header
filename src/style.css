@@ -1,7 +1,12 @@
+:root {
+  --blue-color:#00acdc
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
+
 }
 
 header {
@@ -50,14 +55,15 @@ header {
   position: relative;
   color: black;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .link:hover {
-  color: #00acdc;
+  color: var(--blue-color);
 }
 
 a.is-active {
-  color: #00acdc;
+  color: var(--blue-color);
 }
 
 a.is-active::after {
@@ -67,6 +73,6 @@ a.is-active::after {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: #00acdc;
+  background-color: var(--blue-colorgit);
   border-radius: 2px 2px 0 0;
 }
