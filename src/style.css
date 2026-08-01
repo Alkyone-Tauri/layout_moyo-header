@@ -1,12 +1,11 @@
 :root {
-  --blue-color:#00acdc
+  --blue-color: #00acdc;
 }
 
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-
 }
 
 header {
@@ -73,6 +72,6 @@ a.is-active::after {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: var(--blue-colorgit);
+  background-color: var(--blue-color);
   border-radius: 2px 2px 0 0;
 }
